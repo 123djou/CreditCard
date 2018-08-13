@@ -6,12 +6,14 @@ body{
 }
 
 .card{
+  background: url('./img/bg.jpg')  no-repeat ;
+  background-size: cover;
   width:500px;
   height:310px;
   border:1px  outset gray;
   border-radius: 20px;
   margin:100px auto;
-  background: linear-gradient(to top left, rgb(3, 14, 46) ,rgb(20, 93, 141) ,rgb(3, 12, 41) );
+  /* background: linear-gradient(to top left, rgb(3, 14, 46) ,rgb(20, 93, 141) ,rgb(3, 12, 41) ); */
   display: flex;
   flex-flow: column nowrap;
   padding: 20px 0 20px 45px;
@@ -125,7 +127,28 @@ font-size: 10px;
 
 }
 
+.form input{
 
+width:200px;
+height:20px;
+display: block;
+margin: 25px 0;
+color: black;
+padding:5px 20px;
+
+font-size: 18px;
+
+}
+.container{
+  display: flex;
+  height:320px;
+  width:1000px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin:10% auto;
+  
+}
 
 
 
